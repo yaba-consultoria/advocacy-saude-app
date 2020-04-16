@@ -24,7 +24,8 @@
               "src/assets"
             ],
             "styles": [
-              "src/styles.css"
+              "src/styles.css",
+              "./node_modules/bootstrap/dist/css/bootstrap.min.css"
             ],
             "scripts": []
           },
@@ -119,6 +120,10 @@
           }
         }
       }
-    }},
-  "defaultProject": "advocacy-saude-app"
+    }
+  },
+  "defaultProject": "advocacy-saude-app",
+  "cli": {
+    "analytics": "8fb0cdde-b203-45ad-a8de-d77d394fcebe"
+  }
 }
